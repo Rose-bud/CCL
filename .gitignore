@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Conda / virtual env
+venv/
+env/
+.venv/
+
+# Dataset
+data/
+datasets/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Experiment outputs
+output/
+outputs/
+results/
+logs/
+runs/
+
+# Temporary
+*.tmp
+*.log
+
+# OS
+.DS_Store
+

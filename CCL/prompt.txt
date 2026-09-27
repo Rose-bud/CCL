@@ -1,0 +1,1 @@
+Loading pretrained model from CLIP
