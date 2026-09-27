@@ -40,7 +40,7 @@ python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda
 python -m pip install -r requirements.txt
 ```
 
-Download the datasets and pretrained CLIP weights, then set `DATASETS.ROOT_DIR`
+We use the same datasets as [IDEA](https://github.com/924973292/IDEA). Please download the datasets following the instructions provided in the IDEA repository and download the pretrained CLIP weights, then set `DATASETS.ROOT_DIR`
 and `MODEL.PRETRAIN_PATH` in the selected configuration file. The existing
 configuration filenames are retained for compatibility:
 
